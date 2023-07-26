@@ -1,0 +1,52 @@
+{
+	
+		"scss.lint.unknownAtRules": "ignore",
+	"files.exclude": {
+		"out": false
+	},
+	"search.exclude": {
+		"out": true
+	},
+	"git.branchProtection": ["main"],
+	"files.trimTrailingWhitespace": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"typescript.tsc.autoDetect": "on",
+	"typescript.tsserver.trace": "on",
+	"typescript.tsserver.log": "off",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.enable": true,
+	"eslint.useESLintClass": true,
+	"eslint.codeActionsOnSave.rules": [
+		"@typescript-eslint/semi",
+		"@typescript-eslint/indent",
+		"!@typescript-eslint/*",
+		"*"
+	],
+	"eslint.workingDirectories": [
+		"./client",
+		"./server",
+	],
+	"eslint.trace.server": "off",
+	"eslint.debug": false,
+	"eslint.lintTask.enable": false,
+	"eslint.format.enable": true,
+	"cSpell.words": [
+		"Affordance",
+		"Autofix",
+		"configurability",
+		"dbaeumer",
+		"eslintignore",
+		"eslintr",
+		"mydirectory",
+		"onsave",
+		"pnpm",
+		"uinteger",
+		"Undispatched",
+		"unregistration"
+	],
+	"task.allowAutomaticTasks": "on"
+}
