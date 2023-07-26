@@ -1,5 +1,0 @@
-{
-    "extends": "@trybe/eslint-config-frontend/typescript",
-    "project": "src/components/tsconfig.json"
-
-  }
